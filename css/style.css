@@ -1,0 +1,43 @@
+{
+
+}
+a{
+  padding: 55PX;
+text-align: right;
+}
+body{
+  background-image:url(../img/codehacker.jpeg);
+  background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-columns: 33.3vw 33.3vw 33.3vw;
+  grid-template-rows: 20vh 80vh;
+}
+
+header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+#profiel{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#profiel img {
+  width: 45%;
+
+}
+
+#motivatie{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#werk{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+nav{
+  float:right;
+}
